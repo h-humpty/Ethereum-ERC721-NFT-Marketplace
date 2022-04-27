@@ -1,5 +1,5 @@
 git filter-branch --commit-filter '
-        if [ "$GIT_COMMITTER_NAME" = "navigaid" ];
+        if [ "$GIT_COMMITTER_NAME" = "pavanvsoratur" ];
         then
                 GIT_COMMITTER_NAME="whitedragon001227";
                 GIT_AUTHOR_NAME="whitedragon001227";
